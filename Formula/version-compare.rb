@@ -1,15 +1,15 @@
-# Homebrew Formula snippet for version-compare v1.0.5
+# Homebrew Formula snippet for version-compare v1.0.6
 # Copy this into your Formula/version-compare.rb file
 
 class VersionCompare < Formula
   desc "Concurrent Kubernetes cluster version comparison tool"
   homepage "https://git.cdm.smis.ch/bitbucket/scm/ccpt/homebrew-cdm-tools"
-  version "1.0.5"
+  version "1.0.6"
   
   # Anonymous read access enabled in Nexus
-  url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.5/version-compare-1.0.5-darwin-arm64.tar.gz"
+  url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.6/version-compare-1.0.6-darwin-arm64.tar.gz"
   
-  sha256 "92be2a7201799d4b15cca3698b19f36d001b99ac0ad871a1422aa14b089b5c50"
+  sha256 "b9c4fe1cb8a020a00620d279ac570c9528c52dc762274d7520b1f0bf240d0bca"
   
   depends_on arch: :arm64
   
