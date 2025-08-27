@@ -8,7 +8,7 @@ class BetterClone < Formula
   # Anonymous read access enabled in Nexus
   url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/better-clone/1.0.0/better-clone-1.0.0-darwin-arm64.tar.gz"
   
-  sha256 "9a6489d2b71c06a915e0e46c8c9c3f24eda745022a7093b962f8b553869ec758"
+  sha256 "07cb28c5807baa6957eaf276e795d33a27937bf77858bbcb6caf4d7dd51d333d"
   
   depends_on arch: :arm64
   
