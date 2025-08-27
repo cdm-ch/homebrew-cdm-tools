@@ -9,7 +9,7 @@ class VersionCompare < Formula
   # Anonymous read access enabled in Nexus
   url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.3/version-compare-1.0.3-darwin-arm64.tar.gz"
   
-  sha256 "510d26deccf4e0a557892b5b40d9dff987eef3c64b9e73597c3df8991bcdb432"
+  sha256 "c44258520b1940ec50c8c298409275f08a8aa0ca3c3db91579329d85493be671"
   
   depends_on arch: :arm64
   
