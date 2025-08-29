@@ -1,15 +1,15 @@
 class VersionCompare < Formula
   desc "CDM tool: version-compare"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT"
-  version "1.0.12"
+  version "1.0.13"
   
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.12/version-compare-1.0.12-darwin-intel.tar.gz"
-      sha256 "8a6dd3aabf37ad00c7f984fcc3ef97869469385f6baa7f9674e3e872744e5538"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.13/version-compare-1.0.13-darwin-intel.tar.gz"
+      sha256 "4520e45cd04902251832058f77f64a09abf9640095953bc6468b75e19a34061d"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.12/version-compare-1.0.12-darwin-arm.tar.gz"
-      sha256 "7732beb039514642dc1af497a4c41b9c3d4ba377bd1040d1854947c653879b52"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/version-compare/1.0.13/version-compare-1.0.13-darwin-arm.tar.gz"
+      sha256 "6c60cf49d4e3e83172e00e6fbc58a660b9ea1465eab5fb9f6b24a995e144b2c1"
     end
   end
 
