@@ -1,15 +1,15 @@
 class ReleaseHelper < Formula
   desc "CDM tool: release-helper"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT"
-  version "1.0.3"
+  version "1.0.4"
   
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/release-helper/1.0.3/release-helper-1.0.3-darwin-intel.tar.gz"
-      sha256 "aa46904fac76af24dd1e04c862f79f7ab663dd3de105c492756047a6f125c853"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/release-helper/1.0.4/release-helper-1.0.4-darwin-intel.tar.gz"
+      sha256 "0888c4faa257e707a4affaa97dd0b1bf868c3c0d1c3f2799ad65def806082273"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/release-helper/1.0.3/release-helper-1.0.3-darwin-arm.tar.gz"
-      sha256 "ea3dc250fb6a711756d10e02f574bc5fb9e4dbd5d822965992956030e48315f5"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/release-helper/1.0.4/release-helper-1.0.4-darwin-arm.tar.gz"
+      sha256 "d5787787ef80da9373f673f01949d680cfc04d5dfc61dc4eb8b58fb6d42d84eb"
     end
   end
 
