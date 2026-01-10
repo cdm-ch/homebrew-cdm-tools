@@ -1,15 +1,15 @@
 class Adc < Formula
   desc "Atlassian Data Center CLI for Jira and Bitbucket"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT"
-  version "1.3.9"
+  version "1.3.10"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.3.9/adc-1.3.9-darwin-intel.tar.gz"
-      sha256 "9e3e9273203cfa00064da4974a7babe4edc0bc3c8b8fdf5917f390f8811216df"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.3.10/adc-1.3.10-darwin-intel.tar.gz"
+      sha256 "5f9a30efe34dde6029fcebab47c2fa2392619a2e620af0d2525518f7afead173"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.3.9/adc-1.3.9-darwin-arm.tar.gz"
-      sha256 "86b4334da61e8430b56d5781911215a10d72ff1b6fa37e7dc0023f996d89eaeb"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.3.10/adc-1.3.10-darwin-arm.tar.gz"
+      sha256 "4d296874046b5ac321325e8a3dcb472c7e72f5069ff5a87d8e7946aee0d9c99d"
     end
   end
 
