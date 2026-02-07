@@ -1,15 +1,15 @@
 class BbPrMaster < Formula
   desc "CDM tool: bb-pr-master"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT"
-  version "1.0.9"
+  version "1.0.10"
   
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-pr-master/1.0.9/bb-pr-master-1.0.9-darwin-intel.tar.gz"
-      sha256 "f42a1dd2b956d41263a4c17c5548d0f7fbac93eb8408de9724e98fd1141b8c52"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-pr-master/1.0.10/bb-pr-master-1.0.10-darwin-intel.tar.gz"
+      sha256 "b55d50f7e7861f2073e974c1d0d9028c3aee3cfc6983d3bde5f6302d40ac02b5"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-pr-master/1.0.9/bb-pr-master-1.0.9-darwin-arm.tar.gz"
-      sha256 "fb7d373181e32b6c2b96171c413ac239957b03c9ac2fbfa473f75871684fb963"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-pr-master/1.0.10/bb-pr-master-1.0.10-darwin-arm.tar.gz"
+      sha256 "82c9716b2cff35ddd2d2c9cf50b9dddc3b5317639000704f7b3daa59515f3a4b"
     end
   end
 
