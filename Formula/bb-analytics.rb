@@ -1,15 +1,15 @@
 class BbAnalytics < Formula
   desc "CDM tool: bb-analytics"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT"
-  version "1.1.0"
+  version "1.1.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-analytics/1.1.0/bb-analytics-1.1.0-darwin-intel.tar.gz"
-      sha256 "543400056920e852bbdacfe250396c39ee99df18855d31b3e0f309e752ac6b57"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-analytics/1.1.1/bb-analytics-1.1.1-darwin-intel.tar.gz"
+      sha256 "403d895012ae100dec53d0282800fd9b174894f31afe4dff8e8ca19835dea5c9"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-analytics/1.1.0/bb-analytics-1.1.0-darwin-arm.tar.gz"
-      sha256 "35b94fdc5b5245ca8bb6723aaf82f4647f40ff6f6ac4375830e32b8eb8b78a04"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/bb-analytics/1.1.1/bb-analytics-1.1.1-darwin-arm.tar.gz"
+      sha256 "ce3d87e4330a0722881bd14a15a96e7c75aa2ca00fb6516997f6f894841266bf"
     end
   end
 
