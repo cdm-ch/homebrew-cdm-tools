@@ -13,9 +13,15 @@ brew tap cdm/tools https://github.com/cdm-ch/homebrew-cdm-tools.git
 ### Installing Tools
 
 ```bash
-# Install version-compare
-brew install cdm/tools/version-compare
+brew install cdm/tools/adc               # Atlassian Data Center CLI (Jira, Bitbucket, Confluence)
+brew install cdm/tools/version-compare   # Compare Kubernetes cluster versions
+brew install cdm/tools/better-clone      # Clone all repos from a Bitbucket project concurrently
+brew install cdm/tools/k8s-cli-downloader # Download and manage kubectl, flux, istioctl
+brew install cdm/tools/bb-analytics      # Analyze Bitbucket commit activity
+```
 
-# Update to latest version
-brew update && brew upgrade version-compare
+### Updating
+
+```bash
+brew update && brew upgrade
 ```
