@@ -1,15 +1,15 @@
 class K8sCliDownloader < Formula
   desc "CDM tool: k8s-cli-downloader"
   homepage "https://github.com/cdm-ch"
-  version "1.1.0"
+  version "1.2.0"
   
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/k8s-cli-downloader/1.1.0/k8s-cli-downloader-1.1.0-darwin-intel.tar.gz"
-      sha256 "4c2bc616e4afeba2cf2dbb7c39b3a27f71161bf2b04fe2c3407cbf221aaf6589"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/k8s-cli-downloader/1.2.0/k8s-cli-downloader-1.2.0-darwin-intel.tar.gz"
+      sha256 "08a7c9f97276d401ee98af6159e1aed9dc286f27efefdeb441aea0f60d9fcd9a"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/k8s-cli-downloader/1.1.0/k8s-cli-downloader-1.1.0-darwin-arm.tar.gz"
-      sha256 "00dacf61e02bec29425819e06e96a84f1165acdcb16902be68cec4643dc096ce"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/k8s-cli-downloader/1.2.0/k8s-cli-downloader-1.2.0-darwin-arm.tar.gz"
+      sha256 "a039de93394e815b2646c308fd2c9836969592aedb06b45da1ad32075d234a44"
     end
   end
 
