@@ -1,15 +1,15 @@
 class BetterClone < Formula
   desc "CDM tool: better-clone"
   homepage "https://github.com/cdm-ch"
-  version "2.2.0"
+  version "2.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/better-clone/2.2.0/better-clone-2.2.0-darwin-intel.tar.gz"
-      sha256 "ecbd27d297378430cb50499e3b948ee7ee18b83f28d56dbb1d4f2d2877882a0a"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/better-clone/2.3.0/better-clone-2.3.0-darwin-intel.tar.gz"
+      sha256 "bc265c1524b71807b63d778c56e7830c4261b08cbbf001176656bdeb85e3f683"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/better-clone/2.2.0/better-clone-2.2.0-darwin-arm.tar.gz"
-      sha256 "6f2806ad234887739f25b754e50272901928e1befcefe3722f2e7721cb8ace14"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/better-clone/2.3.0/better-clone-2.3.0-darwin-arm.tar.gz"
+      sha256 "5e42fe30e882e923c81e69ff7eb72da85cfbd84612de8e829b08968872e9cca5"
     end
   end
 
