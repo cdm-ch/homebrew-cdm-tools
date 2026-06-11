@@ -1,15 +1,15 @@
 class SmbGitSync < Formula
   desc "CDM tool: smb-git-sync"
   homepage "https://github.com/cdm-ch"
-  version "1.2.0"
+  version "1.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/smb-git-sync/1.2.0/smb-git-sync-1.2.0-darwin-intel.tar.gz"
-      sha256 "3df1b8e5ea9e7f7f717efb6637a8e25057a73de9adffc31c1ee69f4291752bcf"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/smb-git-sync/1.3.0/smb-git-sync-1.3.0-darwin-intel.tar.gz"
+      sha256 "12b8393efe63b4c3e2b2fff46acf7577d8b551746ac0b266f77dff65a1250e54"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/smb-git-sync/1.2.0/smb-git-sync-1.2.0-darwin-arm.tar.gz"
-      sha256 "86e1dda67a38b94734fedcd169460e118c9a9f508a5fc78d3194fb39a358cc49"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/smb-git-sync/1.3.0/smb-git-sync-1.3.0-darwin-arm.tar.gz"
+      sha256 "6347071ea8c588ce83d160ad4cd133af7e6d2ac684cc802a698b06124f5fa78f"
     end
   end
 
