@@ -1,15 +1,15 @@
 class Adc < Formula
   desc "CDM tool: adc"
   homepage "https://github.com/cdm-ch"
-  version "1.30.2"
+  version "1.30.3"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.30.2/adc-1.30.2-darwin-intel.tar.gz"
-      sha256 "845b3079fed4293da515a444669f90c8068d4fe2bc533d7a966f32d44c5b38ce"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.30.3/adc-1.30.3-darwin-intel.tar.gz"
+      sha256 "d29b0532fb158aa93d2aef0c25ea947ea3111def482bdbd7e8aa8d3c22d38d76"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.30.2/adc-1.30.2-darwin-arm.tar.gz"
-      sha256 "df0aae72d30f8c18a23e1523628c54ea6c0306d407a3e5f5c9c191da6494ffab"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/adc/1.30.3/adc-1.30.3-darwin-arm.tar.gz"
+      sha256 "36ec0f5818c734f8f58393cee457d31a8629dbece67a9ce6d8f03e748a19718d"
     end
   end
 
