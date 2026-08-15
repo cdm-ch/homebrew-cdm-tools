@@ -1,15 +1,15 @@
 class ClamavTest < Formula
   desc "CDM tool: clamav-test"
   homepage "https://github.com/cdm-ch"
-  version "1.4.0"
+  version "1.4.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/clamav-test/1.4.0/clamav-test-1.4.0-darwin-intel.tar.gz"
-      sha256 "2123a2368da28263ba4f60e77e1633a02d7c6f7a8d8b5a16aa8cb4b005ca59ca"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/clamav-test/1.4.1/clamav-test-1.4.1-darwin-intel.tar.gz"
+      sha256 "0f981096f59bf40d8a840d11674666d01127c92f3c8dc7cf11aa8953066aab21"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/clamav-test/1.4.0/clamav-test-1.4.0-darwin-arm.tar.gz"
-      sha256 "e43f4037832dc3880983faa181bb9b574c0e88dffdd88eb93124dc300237999b"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/clamav-test/1.4.1/clamav-test-1.4.1-darwin-arm.tar.gz"
+      sha256 "d9ed41a42e7b9110fd94eb099473a62a25a769c2727274a618a99a4fe76b41d2"
     end
   end
 
