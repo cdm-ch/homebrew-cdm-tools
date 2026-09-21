@@ -3,20 +3,21 @@
 # wrong fails at brew install for every user at once.
 #
 # The tap is cdm/tools, so the installed name is cdm/tools/cdm-share. The short
-# name cdm/cdm-tools does NOT resolve. Opening the tap pull request against
-# github.com/cdm-ch/homebrew-cdm-tools is a separate owner action.
+# name cdm/cdm-tools does NOT resolve. Committing this formula to
+# github.com/cdm-ch/homebrew-cdm-tools is a separate owner action, and that tap
+# takes direct commits on master rather than pull requests. See README.
 class CdmShare < Formula
   desc "Publish a folder to the CDM artifact sharing service and print its URL"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT/repos/share"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.1/cdm-share-1.0.1-darwin-intel.tar.gz"
-      sha256 "3297b54ef7f80f779efd69f642d760c330b67ea96af7989188cb66cd5ea6fdf6"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.2/cdm-share-1.0.2-darwin-intel.tar.gz"
+      sha256 "09d6d25e98938c7e8546a82cdb01cbc94c0a618d7541bdac37d3628671aa292f"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.1/cdm-share-1.0.1-darwin-arm.tar.gz"
-      sha256 "e168abd1f0310cd232bb3a7461363520060e36a2198f6063f3d222caef516e15"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.2/cdm-share-1.0.2-darwin-arm.tar.gz"
+      sha256 "8801c5cc6db0d92a10f7f513efa6f95bb952f34f7cfc6bf19da65248d6f8360e"
     end
   end
 
