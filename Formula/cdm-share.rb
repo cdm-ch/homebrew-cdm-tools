@@ -9,15 +9,15 @@
 class CdmShare < Formula
   desc "Publish a folder to the CDM artifact sharing service and print its URL"
   homepage "https://git.cdm.smis.ch/bitbucket/projects/CCPT/repos/share"
-  version "1.0.6"
+  version "1.0.9"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.6/cdm-share-1.0.6-darwin-intel.tar.gz"
-      sha256 "e4996b1a083ee8cdc4ba8c6fb436ec970f0828043ba165df2739b742da3636f3"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.9/cdm-share-1.0.9-darwin-intel.tar.gz"
+      sha256 "239911dd8f69e9326371d04ebaba7d70fa1aaa756ff242fd8283c51c529b3c6a"
     else
-      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.6/cdm-share-1.0.6-darwin-arm.tar.gz"
-      sha256 "e26fbec682795c8501a058d064ecf943eeee1609baa9b13762fc172f861b0abd"
+      url "https://nexus.cdm.smis.ch/repository/homebrew-binaries/cdm-share/1.0.9/cdm-share-1.0.9-darwin-arm.tar.gz"
+      sha256 "5ff074aeab26cb3c3708f45911979ffd66a0ae38d66343458900574ca32a52ca"
     end
   end
 
